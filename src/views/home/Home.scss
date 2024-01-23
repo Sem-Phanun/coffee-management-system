@@ -1,0 +1,7 @@
+@use 'src/index';
+
+.home-container {
+    @extend %container;
+    flex-direction: column;
+    background-color: gray;
+}
